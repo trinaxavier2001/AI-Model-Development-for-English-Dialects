@@ -1,0 +1,9 @@
+torch    # Replace with your PyTorch version (use torch.cuda.is_available() to check CUDA compatibility)
+torchaudio # Ensure compatibility with your PyTorch version
+transformers # Hugging Face Transformers library for Wav2Vec2
+tqdm     # For progress bars
+scikit-learn # For train_test_split and other utilities
+numpy     # Numerical computations
+pandas    # (Optional, if you use pandas for data analysis)
+joblib     # For parallel processing, if used
+matplotlib # For visualizations like confusion matrix
